@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" data-critters-container>
+<head>
+  <meta charset="utf-8">
+  <title>NgIntegrationGuide</title>
+  <base href="/ng-integration-guide/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="importmap">
+    { "imports": { "o1js": "./lib/o1js/index.js" } }
+  </script>
+  <script type="module">
+    import * as o1js from "o1js";
+    window.o1js = o1js;
+    console.log("Set the global o1js instance: ", window.o1js);
+  </script>
+<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.b029dd9e67aed345.js" type="module"></script><script src="polyfills.52e4eb5aedf44507.js" type="module"></script><script src="main.20f5be2e59ea69c9.js" type="module"></script></body>
+</html>
